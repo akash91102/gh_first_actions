@@ -1,0 +1,11 @@
+name: second workflow
+on: workflow_dispatch_1
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+      steps:
+        - name : akash kumar
+          run : echo "Arad"
+        - name : Balaji
+          run : echo "Balaji"
+      
